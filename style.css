@@ -173,6 +173,54 @@ nav ul {
   line-height: 1.8;
 }
 
+/* Contact */
+
+#contact {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(175, 168, 168, 0.678), transparent),
+    url("./assests/images/conatct.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  width: 60%;
+  border-radius: 2rem;
+}
+
+.form-head {
+  text-align: center;
+  padding: 4rem;
+}
+
+.form-name,
+.form-email {
+  padding: 3rem;
+  text-align: center;
+}
+
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  margin-top: 8rem;
+  padding: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.form-wrapper input {
+  padding: 1rem 3rem;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 933px) {
